@@ -91,7 +91,7 @@ These are published results; a different dataset may produce different accuracie
 | --- | --- |
 | `image_processing.py` | Face cropping, QIIP, QFSD, quantum-inspired features, and dataset construction |
 | `machine_learning_second.py` | PCA and classifier training |
-| `execution.py` | Runs the experiment and saves the results |
+| `main.py` | Runs the experiment and saves the results |
 
 Keep the three files in the same directory, using these exact filenames.
 
@@ -115,7 +115,7 @@ Use Python 3.11. Install the packages imported by the scripts:
 
 ```bash
 python -m pip install numpy pandas opencv-python scipy face-recognition mediapipe qiskit torch torchvision scikit-image Pillow scikit-learn xgboost matplotlib
-python execution.py
+python main.py
 ```
 
 Enter the dataset folder when prompted. The script saves `feature_combination_classifier_results.csv` and `classifier_accuracy_barplot.png` in the working directory.
