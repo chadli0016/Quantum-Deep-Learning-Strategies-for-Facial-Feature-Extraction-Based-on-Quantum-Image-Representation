@@ -123,3 +123,5 @@ Enter the dataset folder when prompted. The script saves `feature_combination_cl
 ## Publication
 
 **Chadli, R., and Obaiys, S. J.** *Quantum Deep Learning Strategies for Facial Feature Extraction Based on Quantum Image Representation*.
+
+<!-- Documentation for QIIP, QFSD, and quantum-inspired face recognition. -->
