@@ -36,7 +36,7 @@ Pixels are grouped by normalized distance and angle around the image center:
 
 ```math
 r(x,y)=\frac{\sqrt{(x-x_c)^2+(y-y_c)^2}}{r_{\max}},\qquad
-\theta(x,y)=\frac{\operatorname{atan2}(y-y_c,x-x_c)+\pi}{2\pi}.
+\theta(x,y)=\frac{\mathrm{atan2}(y-y_c,x-x_c)+\pi}{2\pi}.
 ```
 
 For every radial and angular region, QFSD computes the mean and standard deviation of both magnitude and phase. It also appends global energy and entropy:
