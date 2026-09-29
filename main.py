@@ -115,3 +115,5 @@ else:
 
 
 print("\nDONE")
+
+# Main entry point for the face recognition experiment.
